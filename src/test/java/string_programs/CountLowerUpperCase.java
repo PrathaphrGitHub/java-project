@@ -1,9 +1,13 @@
 package string_programs;
 
+import java.util.Scanner;
+
 public class CountLowerUpperCase {
 
 	public static void main(String[] args) {
-		String s="KaNnADa";
+		Scanner sc = new Scanner(System.in);
+		System.out.println("enter the word");
+		String s = sc.next();
 		int uc=0;
 		int lc=0;
 		for (int i = 0; i <s.length(); i++) {

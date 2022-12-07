@@ -19,9 +19,9 @@ public class StringPalindrome {
 			rev += s.charAt(i);
 		}
 		if (rev.equalsIgnoreCase(s)) {
-			System.out.println(s + "  is palindrome");
+			System.out.println(st + "  is palindrome");
 		} else {
-			System.out.println(s + "  is not  palindrome");
+			System.out.println(st + "  is not  palindrome");
 		}
 	}
 }

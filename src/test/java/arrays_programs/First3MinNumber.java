@@ -35,7 +35,7 @@ public class First3MinNumber {
 
 	@Test
 	public void min2() {
-		int[] a = { 5, 6, 0, 3, 2, 17, 0, 9 };
+		int[] a = { 5, 6, 0, 3, 2, 17, 9 };
 
 		for (int i = 0; i < a.length; i++) {
 			for (int j = i + 1; j < a.length; j++) {

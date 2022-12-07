@@ -11,14 +11,14 @@ public class FirstMinNumber {
 	public void min1() {
 		int[] a = { 5, 2, 3, 6, 9, 8, 4, 1, 10 };
 		int min = a[0];
-		for (int i = 1; i < a.length; i++) {
+		for (int i = 0; i < a.length; i++) {
 			if (a[i] < min) {
 				min = a[i];
 			}
 		}
 		System.out.println("minimum number is = " + min);
 	}
-	
+
 	@Test
 	public void min2() {
 		int[] a = { 5, 2, 3, 6, 9, 8, 4, 1, 10 };

@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 import org.testng.annotations.Test;
 
-public class CountDuplicatesOnly {
+public class CountDuplicatesCharacterOnly {
 
 	@Test
 	public void remove1() {

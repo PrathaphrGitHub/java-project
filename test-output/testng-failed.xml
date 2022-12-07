@@ -3,11 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="arrays_programs.AddArrayOfDiffSize">
+      <class name="string_programs.OccurenceOfEachWords">
         <methods>
-          <include name="add1"/>
+          <include name="occurence"/>
         </methods>
-      </class> <!-- arrays_programs.AddArrayOfDiffSize -->
+      </class> <!-- string_programs.OccurenceOfEachWords -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

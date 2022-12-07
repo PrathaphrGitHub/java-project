@@ -5,9 +5,8 @@ import java.util.Scanner;
 
 import org.testng.annotations.Test;
 
-public class PositionOfAnyCharacter {
+public class CountUniqCharacterOnly {
 
-	
 	@Test
 	public void remove1() {
 		Scanner sc = new Scanner(System.in);
@@ -22,13 +21,15 @@ public class PositionOfAnyCharacter {
 		System.out.println(set);
 		
 		for (Character lv : set) {
+			int count =0;
 			for (int i = 0; i < s.length(); i++) {
 				if (lv == s.charAt(i)) {
-					System.out.println(lv+" present in "+(i)+" index");
-					System.out.println(lv+" present in "+(i+1)+" position");
-					System.out.println("---------");
-					break;
+					count++;
 				}
+			}
+			
+			if (count==1) {
+				System.out.println(lv+ "  occures "+ count +"  times");
 			}
 		}
 	}

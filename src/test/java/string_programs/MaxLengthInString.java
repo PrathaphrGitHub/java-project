@@ -3,7 +3,7 @@ package string_programs;
 public class MaxLengthInString {
 
 	public static void main(String[] args) {
-		String[] s = { "ab", "abcd", "abcde", "ii" };
+		String[] s = { "12", "1234", "12345", "5678" };
 		int biggest = s[0].length();
 
 		for (int i = 0; i < s.length; i++) {
